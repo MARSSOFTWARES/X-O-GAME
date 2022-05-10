@@ -1,0 +1,281 @@
+body{
+    font-family: sans-serif;
+}
+#container{
+    background: rgb(236, 236, 236);
+    left: 0;
+    position: relative;
+    top: 0;
+    height: 620px;
+    width: 80%;
+}
+#result_counting{
+    height: 400px;
+    width: 300px;
+    top: 50px;
+    left: 20px;
+    position: relative;
+}
+.play_style{
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border: 1px solid black;
+    top: 200px;
+    left: 30%;
+    position: fixed;
+    opacity: 1;
+}
+.play_style button{
+    padding: 10px 20px;
+    margin: 30px 40px;
+    background: rgb(0, 86, 143);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.result_shower{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    background: rgb(145, 255, 0);
+    border: 1px solid black;
+    top: 100px;
+    display: none;
+    left: 25%;
+    position: fixed;
+    z-index: 10001;
+    opacity: 1;
+}
+.result_shower button{
+    padding: 10px 20px;
+    margin: 30px 40px;
+    background: rgb(0, 86, 143);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.Names{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border: 1px solid black;
+    top: 200px;
+    display: none;
+    left: 25%;
+    position: fixed;
+    z-index: 10001;
+    opacity: 1;
+}
+.Names input{
+    padding: 10px 0px;
+    display: inline;
+    margin: 30px 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: solid 1px black;
+    border-radius: 5px;
+    outline: none;
+}
+.Names button{
+    padding: 10px 20px;
+    margin: 30px 40px;
+    background: rgb(0, 86, 143);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.ready{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border: 1px solid black;
+    top: 200px;
+    display: none;
+    left: 25%;
+    position: fixed;
+    z-index: 10001;
+    opacity: 1;
+}
+.ready button{
+    padding: 10px 20px;
+    margin: 30px 40px;
+    background: rgb(0, 86, 143);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    top: 50%;
+    position: relative;
+}
+.winn_show{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    background: rgb(229, 255, 0);
+    border: 1px solid black;
+    top: 200px;
+    display: none;
+    left: 25%;
+    position: fixed;
+    z-index: 10001;
+    opacity: 1;
+}
+.winn_show h1{
+    display: inline-block;
+    position: relative;
+}
+h1{
+    display: inline-block;
+    position: relative;
+    margin: 10px 80px;
+}
+table, tr, td, th{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+table{
+    top: 20px;
+    width: 600px;
+    left: 25%;
+    height: 600px;
+    position: fixed;
+    background: white;
+}
+#tab {
+    display: none;
+    height : 600px;
+    width: 600px;
+    left: 25%;
+    top: 40px;
+    position: fixed;
+}
+#first_line{
+    height: 20px;
+    width: 0%;
+    position: relative;
+    background: rgb(80, 219, 0);
+    z-index: 1000;
+    top: 80px;
+    left: 5%;
+}
+#second_line{
+    height: 20px;
+    width: 0%;
+    left: 5%;
+    position: relative;
+    z-index: 1000;
+    background: rgb(80, 219, 0);
+    top : 270px;
+}
+#third_line{
+    height: 20px;
+    width: 0%;
+    left: 5%;
+    position: relative;
+    z-index: 1000;
+    background: rgb(80, 219, 0);
+    top : 450px;
+}
+#forth_line{
+    height: 20px;
+    width: 0%;
+    left: -28%;
+    position: relative;
+    background: rgb(80, 219, 0);
+    transform: rotate(90deg);
+    top : 230px;
+    z-index: 1000;
+}
+#fiveth_line{
+    height: 20px;
+    width: 0%;
+    left: 5%;
+    position: relative;
+    background: rgb(80, 219, 0);
+    transform: rotate(90deg);
+    z-index: 1000;
+    top : 210px
+}
+#sext_line{
+    height: 20px;
+    width: 0%;
+    position: relative;
+    background: rgb(80, 219, 0);
+    transform: rotate(90deg);
+    top: 190px;
+    z-index: 1000;
+    left: 38%;
+}
+#sevent_line{
+    height: 20px;
+    width: 0%;
+    position: relative;
+    background: rgb(80, 219, 0);
+    top: 170px;
+    left: -90px;
+    z-index: 1000;
+    transform: rotate(45deg);
+}
+#heigt_line{
+    height: 20px;
+    width: 0%;
+    position: relative;
+    background: rgb(80, 219, 0);
+    left: -90px;
+    top: 150px;
+    z-index: 1000;
+    transform: rotate(135deg);
+}
+#firstcircle{
+    width: 90%;
+    left: 5%;
+    top: 0%;
+    height: 90%;
+    background: rgb(255, 0, 0);
+    border-radius:255px;
+    position: relative;
+}
+#secondcircle{
+    width: 90%;
+    left: 5%;
+    top: 5%;
+    height: 90%;
+    background: rgb(255, 255, 255);
+    border-radius:255px;
+    position: relative;
+}
+#firstx{
+    position: relative;
+    height: 90%;
+    width: 10%;
+    background: rgb(0, 17, 255);
+    left: 50%;
+    top: 72px;
+    transform: rotate(45deg);
+}
+#secondx{
+    position: relative;
+    height: 90%;
+    top: -72px;
+    width: 10%;
+    background: rgb(0, 17, 255);
+    left: 50%;
+    transform: rotate(-45deg);
+
+}

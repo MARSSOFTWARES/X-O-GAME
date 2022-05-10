@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="X_O.css">
+</head>
+<body>
+    <div id="container">
+        <div id="result_counting">
+            <h2 id="first_player_counter">Player 1</h2><label id="first_player_counter_number">0</label>
+            <h2 id="second_player_counter">Player 2</h2><label id="second_player_counter_number">0</label>
+        </div>
+        <div class="play_style" id="play_style">
+            <h1>Wich playing style you prefer?</h1>
+            <button onclick="playing_style(0)">Two Players</button><button onclick="playing_style(1)">With Computer</button>
+        </div>
+        <div class="Names" id="Names">
+            <h1>Enter Your Names</h1>
+            <input type="text" placeholder="First Player" id="first_player">
+            <input type="text" placeholder="Second Player"id="second_player"><br>
+            <button onclick="start()">Start</button>
+        </div>
+        <div class="ready" id="ready">
+            <h1 id="first"></h1><h1 id="second"></h1>
+            <!--div id="firstx"></div>
+            <div id="secondx"></div-->
+                <table style="height: 200px; width : 6OOpx; top: 300px; border: none;">
+                    <tr style=" border: none;">
+                        <td style=" border: none;" id="first_table">
+                        </td>
+                        <td style=" border: none;"></td>
+                        <td style=" border: none;" id="second_table">
+                        </td>
+                    </tr>
+                </table>
+                <button onclick='document.getElementById("tab").style.display = "block";
+                document.getElementById("ready").style.display = "none";'>Let's Go</button>
+        </div>
+        <div class="result_shower" id="result_shower">
+        <h1 id="winn"></h1><h1>Win!!!</h1>
+        </div>
+        <div class="winn_show" id="winn_show">
+            <h1 id="winn">winn</h1><h1> Winner!</h1>
+        </div>
+        <div id="tab" >
+            <div id="first_line"></div>
+            <div id="second_line"></div>
+            <div id="third_line"></div>
+            <div id="forth_line"></div>
+            <div id="fiveth_line"></div>
+            <div id="sext_line"></div>
+            <div id="sevent_line"></div>
+            <div id="heigt_line"></div>
+            <table >
+                <tr>
+                    <td onclick="fun(1)" id="1"></td>
+                    <td onclick="fun(2)" id="2"></td>
+                    <td onclick="fun(3)" id="3"></td>
+                </tr>
+                <tr>
+                    <td onclick="fun(4)" id="4"></td>
+                    <td onclick="fun(5)" id="5"></td>
+                    <td onclick="fun(6)" id="6"></td>
+                </tr>
+                <tr>
+                    <td onclick="fun(7)" id="7"></td>
+                    <td onclick="fun(8)" id="8"></td>
+                    <td onclick="fun(9)" id="9"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="X_O.js"></script>
+</html>
